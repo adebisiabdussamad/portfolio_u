@@ -32,11 +32,20 @@ header a {
     text-decoration: none;
     color: #00a9c2;
     font-size: 22px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+header a:hover {
+    color: white;
 }
 
 .sub-links li a {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
+}
+
+.sub-links li a:hover {
+    color: white important !;
 }
 
 h2>a {
@@ -86,7 +95,7 @@ nav {
 }
 
 .sub-links li a:hover {
-    color: #cac6ce;
+    color: #ffffff;
 }
 
 .container {
@@ -171,6 +180,7 @@ h1 {
 .project-tile a {
     text-decoration: none;
     color: white;
+    transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .project-tile a:hover {
