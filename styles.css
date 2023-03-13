@@ -166,7 +166,6 @@ h1 {
     margin: 0 auto;
     margin-bottom: 6rem;
     text-align: center;
-
 }
 
 .project-tile {
@@ -175,6 +174,7 @@ h1 {
     background-color: #1b3134;
     padding: 20px;
     border-radius: 10px;
+    transition: all 500ms;
 }
 
 .project-tile a {
@@ -184,12 +184,22 @@ h1 {
 }
 
 .project-tile a:hover {
-    color: #00a9c2;
+    color: #1b3134;
+}
+
+.project-tile:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #00a9c2;
 }
 
 div img {
     width: 100%;
+    border-radius: 10px;
+
 }
+
+div img:hover {}
 
 .p-p {
     text-align: center;
